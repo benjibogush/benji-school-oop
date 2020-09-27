@@ -160,6 +160,7 @@ public class Utilities extends PERSON {
         }
     }
 
+
     public static void getPersonIterator(SUPERKEY[] person)
     {
         // generic for each that works for student or teacher types
@@ -170,6 +171,7 @@ public class Utilities extends PERSON {
         stream.forEach(e -> System.out.print("\n"+e.getKey() +" "+ e.getValue()));
 
     }
+
 
     public static <T> void getPersonLambda(List<T> person)
     {
